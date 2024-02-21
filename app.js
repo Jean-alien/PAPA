@@ -31,7 +31,7 @@ async function run() {
     // await client.db("admin").command({ ping: 1 });
     const result = await client.db("papa-database").collection("papa-collection").find().toArray();
 
-    //console.log("cxnDB result: ", result);
+    console.log("cxnDB result: ", result);
 
     return result; 
 
