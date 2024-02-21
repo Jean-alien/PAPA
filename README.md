@@ -1,2 +1,2 @@
-# solid-fishstick-snowcats
-Dr. Cumbie (yet again) re-staring a class repo for CIS 486 Spring '24 
+PAPA LAB
+# first demo to connect mongodb to ejs
