@@ -14,7 +14,7 @@ app.set('views', path.join(__dirname, 'views'));
 let myTypeServer = "Type 1: Reformer";
 
 // make MongoClient with MongoClientOptions object 
-const client = new MongoClient(process.env.URI, {
+const client = new MongoClient("mongodb+srv://abc:jean0855!@cluster0.snv9zih.mongodb.net/?retryWrites=true&w=majority", {
   serverApi: {
     version: ServerApiVersion.v1,
     strict: true,
