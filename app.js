@@ -11,7 +11,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 // use res.render to load up an ejs view file
 
-let myTypeServer = "Type 1: Reformer";
+let myTypeServer = "9️⃣ The Peacemaker ✌🏻";
 
 // make MongoClient with MongoClientOptions object 
 const client = new MongoClient("mongodb+srv://abc:jean0855!@cluster0.snv9zih.mongodb.net/?retryWrites=true&w=majority", {
