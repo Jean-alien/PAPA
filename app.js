@@ -53,7 +53,7 @@ app.get('/', async (req,res) => {
 });
 
 app.get('/send', function (req, res) {
-    res.send('Hello from the <em>Express</em><br><a href="/"></a>')
+    res.send('Hello from the Express<br><a href="/"></a>')
 })
 
 app.listen(port, () => {
